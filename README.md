@@ -18,7 +18,7 @@ A Streamlit-based RAG (Retrieval-Augmented Generation) chatbot that allows you t
 
 ## Demo
 
-Try the live app: [Your Streamlit App URL]
+Try the live app: https://rag-book-chatbot-hh3st5pdxyt9shqpubuw2q.streamlit.app/
 
 ## Installation
 
@@ -31,7 +31,7 @@ Try the live app: [Your Streamlit App URL]
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/rag-book-chatbot.git
+   git clone https://github.com/Empe1ror/rag-book-chatbot.git
    cd rag-book-chatbot
    ```
 
