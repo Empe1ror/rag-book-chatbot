@@ -192,7 +192,7 @@ def get_answer(query, chunk_texts, model):
         ("system", """You are a helpful assistant that answers questions based on the provided context from a book.
         Use only the information in the context to answer questions. If the context doesn't contain 
         relevant information, say so politely.
-if user types Hi, return a simple greeting and introduce yourself self"""),
+if user types Hi, Hello or any other greeting, return a simple greeting and introduce yourself"""),
         ("human", """Context from the book:
 {context}
 
