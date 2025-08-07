@@ -191,7 +191,8 @@ def get_answer(query, chunk_texts, model):
     prompt_template = ChatPromptTemplate.from_messages([
         ("system", """You are a helpful assistant that answers questions based on the provided context from a book.
         Use only the information in the context to answer questions. If the context doesn't contain 
-        relevant information, say so politely."""),
+        relevant information, say so politely.
+if user types Hi, return a simple greeting and introduce yourself self"""),
         ("human", """Context from the book:
 {context}
 
